@@ -7,6 +7,9 @@ on:
         description: 'Linode driver version tag (e.g. v0.1.9)'
         required: true
 
+permissions:
+  contents: read
+
 jobs:
   build-and-release:
     name: Build Linode Driver and Create GitHub Release
